@@ -35,7 +35,7 @@ public class ImageAdapter extends BaseAdapter {
   }
 
   public View getView(int position, View convertView, ViewGroup parent) {
-    ImageView imageView = new ImageView(context);
+    ImageView imageView xczxcxcx= new ImageView(context);
     imageView.setImageBitmap(mBitmapArray[position]);
     imageView.setLayoutParams(new Gallery.LayoutParams(200, 200));
     imageView.setBackgroundResource(itemBackground);
